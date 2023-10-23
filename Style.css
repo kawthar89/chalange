@@ -1,0 +1,99 @@
+.body{
+box-sizing: border-box;
+}
+.header{
+    display:flex;
+    margin: 12px;
+    padding:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+}
+.texte{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color:black;
+}
+.header h2{
+    color: red;
+}
+.menu ul {
+    display: flex;
+    color: dimgrey;
+}
+.menu ul li {
+    padding: 12px;
+    list-style: none;
+}
+.LOGIN{
+    
+    text-transform: uppercase;
+    background-color: red;
+    color: black;
+    display: flex;
+    width:100px ;
+    height:30px ;
+}
+.bloc{
+    display: inline-block;
+    vertical-align: top;
+    padding: 16px;
+
+}
+.les3h{
+    display: flex;
+    height: 100px;
+}
+.les3h h2{
+    color: red;
+}
+.img1{
+    width:50px;
+    height: 50px;
+    vertical-align: top;
+    font-size: small;
+ 
+}
+.texto{
+    display: inline-block;
+    width: 30%;
+}
+.img1 .texto{
+    display: flex;
+    font-size:small;
+}
+.Buy .btn{
+ text-transform: uppercase;
+    background-color: red;
+    color: black;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.onetoone{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.card-text{
+    color: red;
+    
+}
+.btn{
+    background-color: rgb(243, 31, 31);
+}
+.btnbtn-primary{
+    background-color: red;
+}
+.Vehicules h1{
+    color: black;
+    text-align:center;
+}
+.service h1{
+    text-align: center;
+}
